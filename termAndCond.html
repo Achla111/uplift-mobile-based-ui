@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>Uplift Project</title>
+      <!-- Bootstrap core CSS -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <!-- Styles  -->
+      <link href="style.css" rel="stylesheet">
+      <link rel="stylesheet" href="font/css/font-awesome.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+    
+
+nav {
+  padding: 5px;
+  position: relative;
+  z-index: 1;
+
+}
+nav::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+hgroup {
+  float: right;
+ width: 70%;
+  text-align: left;
+  color: #fff;
+  margin: 0 auto;
+
+}
+aside {
+  position: absolute;
+  width: 250px;
+  height: 100%;
+  background: #0e1a37;
+  left: 0;
+  top: 0;
+  display: none;
+  padding: 40px;
+}
+aside::before {
+  content: "";
+  display: block;
+  height: 67px;
+
+}
+aside a {
+  display: block;
+  padding: 12px 18px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  border-bottom: 2px solid #414141;
+ 
+}
+aside a:hover {
+  display: block;
+  padding: 12px 18px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #f34e03;
+  border-bottom: 2px solid #414141;
+}
+.toggle-wrap {
+  padding: 15px;
+  position: relative;
+  cursor: pointer;
+  float: left;
+  
+  /*disable selection*/
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.toggle-bar,
+.toggle-bar::before,
+.toggle-bar::after,
+.toggle-wrap.active .toggle-bar,
+.toggle-wrap.active .toggle-bar::before,
+.toggle-wrap.active .toggle-bar::after {
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+.toggle-bar {
+  width: 28px;
+  margin: 10px 0;
+  position: relative;
+  border-top: 4px solid #f34e03;
+  display: block;
+}
+.toggle-bar::before,
+.toggle-bar::after {
+  content: "";
+  display: block;
+  background: #f34e03;
+  height: 4px;
+  width: 38px;
+  position: absolute;
+  top: -14px;
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -ms-transform-origin: 13%;
+  -webkit-transform-origin: 13%;
+  transform-origin: 13%;
+}
+.toggle-bar::after {
+  top: 5px;
+}
+.toggle-wrap.active .toggle-bar {
+  border-top: 6px solid transparent;
+}
+.toggle-wrap.active .toggle-bar::before {
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.toggle-wrap.active .toggle-bar::after {
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+  </style>
+  </head>
+  <body>
+
+  <header style="height: 60px;padding: 0;">
+    <nav>
+  <div class="toggle-wrap">
+    <span class="toggle-bar"></span>
+  </div>
+  <hgroup>
+    <h3>Terms and Conditions</h3>
+    
+</nav>
+  </header> 
+  
+<aside>
+  <a href="#"><img  src="img/uplift_logo.png" alt="logo"></a>
+  <a href="#">My Invites</a>
+  <a href="#">My Stats</a>
+  <a href="#">My Profile</a>
+  <a href="#">Chat</a>
+  <a href="#">Get the app</a>
+  <a href="#">About Uplift</a>
+  <a href="#">Logout</a>
+</aside> 
+
+<section class="section-a">
+    <div class="tac-content-first">
+      <h4 class=strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque facilisis fermentum euismod. Integer ornare lacus id risus maximus, ornare dapibus.</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque facilisis fermentum euismod. Integer ornare lacus id risus maximus, ornare dapibus ex tempor. Duis vitae rutrum ipsum. Morbi aliquet convallis arcu sit amet consequat. </p>
+
+        <p>Curabitur suscipit interdum ante, eu euismod nisi bibendum a. Curabitur vel venenatis nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec quis ligula at erat egestas scelerisque. Suspendisse bibendum luctus mi vel ultricies. Quisque sodales aliquet turpis, a luctus velit vestibulum et. Vivamus at justo erat, quis pharetra sem. </p>
+
+    </div>
+    
+    <div class="tac-content-second">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque facilisis fermentum euismod. Integer ornare lacus id risus maximus, ornare dapibus.</p><br>
+
+      <ul>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          <li>Pellentesque facilisis fermentum euismod.</li>
+          <li>Integer ornare lacus id risus maximus, ornare dapibus.</li>
+          <li>Duis vulputate ante nec</li>
+      </ul> 
+    
+      <p>Curabitur suscipit interdum ante, eu euismod nisi bibendum a. Curabitur vel venenatis nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec quis ligula at erat egestas scelerisque. Suspendisse bibendum luctus mi vel ultricies. Quisque sodales aliquet turpis, a luctus velit vestibulum et. Vivamus at justo erat, quis pharetra sem. </p>
+    </div>
+    <div class="tac-content-third">
+      <h3>Duis vulputate ante nec</h3>
+      <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque facilisis fermentum euismod. Integer ornare lacus id risus maximus, ornare dapibus.</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque facilisis fermentum euismod. Integer ornare lacus id risus maximus, ornare dapibus ex tempor. Duis vitae rutrum ipsum. Morbi aliquet convallis arcu sit amet consequat. </p>
+        <p>Curabitur suscipit interdum ante, eu euismod nisi bibendum a. Curabitur vel venenatis nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec quis ligula at erat egestas scelerisque. Suspendisse bibendum luctus mi vel ultricies. Quisque sodales aliquet turpis, a luctus velit vestibulum et. Vivamus at justo erat, quis pharetra sem. </p>
+    </div>
+  </section>
+
+  </section>
+  <footer>
+    <div class="icon-container">
+
+        <div><i class="fa fa-facebook" aria-hidden="true"> </i></div>
+        <div><i class="fa fa-instagram" aria-hidden="true"></i></div>
+        <div><i class="fa fa-twitter" aria-hidden="true"></i></a></div>  
+    </div>
+    
+
+    <div class="blogabout-link">
+      <a href="">BLOG</a>-
+      <a href="">ABOUT</a>-
+      <a href="">CONTACT</a>
+     </div> 
+     <div class="footer-address">
+      <p class="light">copyright © 2015 - 2017. You Are a CEO LLC All Rights Reserved. </p>
+       <p>Ph#: (866) -222-4304  |  Email: support@youareaceo.com</p>
+    </div>
+  </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+      <script>
+       (function() {
+        $('.toggle-wrap').on('click', function() {
+          $(this).toggleClass('active');
+          $('aside').animate({width: 'toggle'}, 200);
+        });
+      })();
+
+</script>
+  </body>
+</html>
+
+
+
+
+
